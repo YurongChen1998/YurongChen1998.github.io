@@ -10,6 +10,9 @@ Contact me Email: chenyurong1998 AT outlook.com
 
 ## Publications
 [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=-HuRr-EAAAAJ)
+
+- **Yurong Chen**, Yaonan Wang, Hui Zhang, "UnNull: Unsupervised Range-Nullspace Learning for Multispectral Demosaicing and Reconstruction," _IEEE Transactions on Image Processing (TIP)_, 2025. [[PDF]](https://ieeexplore.ieee.org/document/10970444) [[Code]](https://github.com/YurongChen1998/UnNull)
+
 - **Yurong Chen**, Yaonan Wang, Hui Zhang, "Prior Images Guided Generative Autoencoder Model for Dual-Camera Compressive Spectral Imaging," _IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)_, 2024. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10499714/) [[Code]](https://github.com/YurongChen1998/PiE-Dual-Camera-Spectral-Compressive-Imaging)
   
 - **Yurong Chen**, Yaonan Wang, Hui Zhang, "Prior Image Guided Snapshot Compressive Spectral Imaging," _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)_, 2023. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10098166/) [[Code]](https://github.com/YurongChen1998/Prior-Image-Guided-Snapshot-Spectral-Compressive-Imaging) 
