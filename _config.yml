@@ -1,35 +1,66 @@
-title: Yurong's Homepage
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-include-cache
-
-minimal_mistakes_skin: "mint"
-
-logo: img/yurong_hiking.jpg
+title: "Yurong Chen"
+tagline: "Hyperspectral Imaging | Machine Learning"
 description: >
-  Ph.D Student | IEEE Member | CSIG Student Member
+  Ph.D. Student at Hunan University  
+  IEEE Member | CSIG Student Member
+
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+lang: "en"
+url: "https://YurongChen1998.github.io"
+baseurl: ""
+
+# SEO settings
+social:
+  name: "Yurong Chen"
+  email: "chenyurong1998@outlook.com"
+  links:
+    - "https://github.com/YurongChen1998"
+    - "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
+    - "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
 
 author:
   name: "Yurong Chen"
-  avatar: "/img/yurong_hiking.jpg"
-  bio: "Ph.D. student working on hyperspectral imaging and machine learning."
-  location: "Hunan University, China"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:chenyurong1998@outlook.com"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/YurongChen1998"
+  bio: "Ph.D. student working on hyperspectral computational imaging and machine learning."
+  email: "chenyurong1998@outlook.com"
+
+# Theme-specific settings
+theme_mode: "auto"
 
 footer:
+  since: 2022
+  license: "© 2025 Yurong Chen. All rights reserved."
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+paginate: 10
+
+# Navigation bar
+navbar:
+  logo:
+    enabled: true
+    path: /img/yurong_hiking.jpg
   links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/YurongChen1998"
-    - label: "Bilibili"
-      icon: "fas fa-play"
-      url: "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
+    - title: Home
+      url: /
+    - title: Publications
+      url: /publications
+    - title: Projects
+      url: /projects
+    - title: Blog
+      url: /blog
+    - title: About
+      url: /about
+
+# Sass/SCSS settings
+sass:
+  style: compressed
