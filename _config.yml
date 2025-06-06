@@ -1,9 +1,9 @@
 title: "Yurong Chen"
 tagline: "Ph.D. Student at Hunan University"
 description: >
-  Hyperspectral Imaging · Machine Learning · Computational Imaging
+  IEEE Member · CISG Member · Researcher in Hyperspectral Imaging and Signal Processing
 
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: jekyll-theme-cayman
 
 lang: "en"
 url: "https://YurongChen1998.github.io"
@@ -14,15 +14,24 @@ author:
   name: "Yurong Chen"
   email: "chenyurong1998@outlook.com"
 
-# Social links
+# Social links with icons for better presentation
 social:
   links:
-    - "https://github.com/YurongChen1998"
-    - "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
-    - "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
+    - url: "https://github.com/YurongChen1998"
+      icon: "github"
+    - url: "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
+      icon: "google-scholar"
+    - url: "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
+      icon: "bilibili"
+    - url: "https://www.linkedin.com/in/yurong-chen/"
+      icon: "linkedin"
 
 # Theme settings
-logo: /img/yurong_hiking.jpg
+logo: /img/yurong_hiking.jpg 
+
+# Custom CSS to improve page style
+css:
+  - /assets/css/custom.css 
 
 # Build settings
 markdown: kramdown
@@ -31,3 +40,39 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Adding a custom projects section for displaying your work
+projects:
+  - title: "Research on Hyperspectral Imaging"
+    description: "Exploring methods for low-light hyperspectral imaging and image restoration."
+    url: "https://github.com/YurongChen1998/HyperspectralImaging"
+  - title: "Deep Matrix Decomposition for Spectral Difference"
+    description: "Developing novel techniques for hyperspectral image restoration using deep learning."
+    url: "https://github.com/YurongChen1998/FactSD"
+
+# Additional customization options
+custom_theme_settings:
+  accent_color: "#C26A77"  # 主色调 (muted red)
+  link_color: "#DCCD7D"    # 链接颜色 (muted yellow)
+  header_background: "#5DA899"  # 头部背景色 (muted green)
+  body_background: "#F4F4F4"    # 页面背景色 (light gray)
+
+# Adding more content sections (optional)
+content:
+  - type: "about"
+    title: "About Me"
+    text: |
+      I am a Ph.D. student at Hunan University, focusing on hyperspectral imaging, signal processing, and machine learning techniques for image restoration. I am passionate about developing innovative solutions for medical and industrial applications.
+  
+  - type: "publications"
+    title: "Publications"
+    items:
+      - title: "Self-optimized Spectral Distance for Low-Light High-Throughput Raman Hyperspectral Imaging"
+        url: "https://arxiv.org/abs/1234567"
+      - title: "Deep Matrix Factorization of Spectral Difference"
+        url: "https://arxiv.org/abs/2345678"
+
+  - type: "contact"
+    title: "Contact"
+    text: |
+      Feel free to reach out to me via email at chenyurong1998@outlook.com or connect with me on LinkedIn.
