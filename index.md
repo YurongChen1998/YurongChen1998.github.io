@@ -82,7 +82,3 @@ A collection of algorithm implementations and notes for self-study and sharing:
   [YouTube](https://youtu.be/e04f3bgdZqc) | [哔哩哔哩 Bilibili](https://www.bilibili.com/video/BV1HJ4m1P7NH/)
 * [📸 Photograph](https://github.com/YurongChen1998/YurongChen1998.github.io/tree/gh-pages/img/Photo)
 * [📘 Essay: 《归国杂记》](https://mp.weixin.qq.com/s/QwgqeyRPMrYuW-8vS5j9Tw)
-
----
-
-Would you like a live site generated in HTML (for GitHub Pages), or an auto-generated academic CV as well?
