@@ -1,28 +1,35 @@
-remote_theme: "mmistakes/minimal-mistakes"
-logo: img/yurong_hiking.jpg
-description: |
-  Ph.D Student |
-  IEEE Member |
-  CSIG Student Member |
 title: Yurong's Homepage
-minimal_mistakes_skin: "air"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "mint"
+
+logo: img/yurong_hiking.jpg
+description: >
+  Ph.D Student | IEEE Member | CSIG Student Member
+
+author:
+  name: "Yurong Chen"
+  avatar: "/img/yurong_hiking.jpg"
+  bio: "Ph.D. student working on hyperspectral imaging and machine learning."
+  location: "Hunan University, China"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:chenyurong1998@outlook.com"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/YurongChen1998"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yourusername"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-github"
+      url: "https://github.com/YurongChen1998"
+    - label: "Bilibili"
+      icon: "fas fa-play"
+      url: "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
