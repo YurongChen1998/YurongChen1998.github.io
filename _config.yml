@@ -27,11 +27,11 @@ social:
       icon: "linkedin"
 
 # Theme settings
-logo: /img/yurong_hiking.jpg 
+logo: /img/yurong_hiking.jpg  # 可以替换为你自己的 logo 图片
 
 # Custom CSS to improve page style
 css:
-  - /assets/css/custom.css 
+  - /assets/css/custom.css  # 用于自定义样式，改进页面设计
 
 # Build settings
 markdown: kramdown
@@ -41,7 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Adding a custom projects section for displaying your work
+# Custom Projects section for displaying your work
 projects:
   - title: "Research on Hyperspectral Imaging"
     description: "Exploring methods for low-light hyperspectral imaging and image restoration."
@@ -49,6 +49,9 @@ projects:
   - title: "Deep Matrix Decomposition for Spectral Difference"
     description: "Developing novel techniques for hyperspectral image restoration using deep learning."
     url: "https://github.com/YurongChen1998/FactSD"
+  - title: "Low-Light Image Enhancement"
+    description: "A method for improving the quality of low-light images through deep learning-based enhancement."
+    url: "https://github.com/YurongChen1998/LowLightEnhancement"
 
 # Additional customization options
 custom_theme_settings:
@@ -57,13 +60,25 @@ custom_theme_settings:
   header_background: "#5DA899"  # 头部背景色 (muted green)
   body_background: "#F4F4F4"    # 页面背景色 (light gray)
 
-# Adding more content sections (optional)
+# Content sections for organizing information
 content:
   - type: "about"
     title: "About Me"
     text: |
-      I am a Ph.D. student at Hunan University, focusing on hyperspectral imaging, signal processing, and machine learning techniques for image restoration. I am passionate about developing innovative solutions for medical and industrial applications.
-  
+      I am currently a Ph.D. student at **Hunan University**, supervised by
+      [Prof. Yaonan Wang](https://ieeexplore.ieee.org/author/37281429000) ([王耀南](https://baike.baidu.com/item/%E7%8E%8B%E8%80%80%E5%8D%97/13478272)) and
+      [Prof. Hui Zhang](https://ieeexplore.ieee.org/author/37657010100) ([张辉](https://baike.baidu.com/item/%E5%BC%A0%E8%BE%89/54075504?fromModule=search-result_lemma)).
+      
+      My research interests include:
+      
+      - **Hyperspectral Computational Imaging**
+      - **Inverse Problems in Imaging**
+      - **Statistical Machine Learning**
+
+      I received my M.S. in Electrical and Computer Engineering from the **University of Pittsburgh (UPitt)** in 2020.
+
+      Feel free to reach out via email at **chenyurong1998@outlook.com** or connect with me on LinkedIn.
+
   - type: "publications"
     title: "Publications"
     items:
@@ -71,8 +86,14 @@ content:
         url: "https://arxiv.org/abs/1234567"
       - title: "Deep Matrix Factorization of Spectral Difference"
         url: "https://arxiv.org/abs/2345678"
+      - title: "Prior Image Guided Snapshot Compressive Spectral Imaging"
+        url: "https://ieeexplore.ieee.org/abstract/document/10098166/"
+      - title: "Flex-DLD: Deep Low-Rank Decomposition Model for Hyperspectral Restoration"
+        url: "https://ieeexplore.ieee.org/abstract/document/10423584/"
 
   - type: "contact"
     title: "Contact"
     text: |
-      Feel free to reach out to me via email at chenyurong1998@outlook.com or connect with me on LinkedIn.
+      Feel free to reach out to me via email at **chenyurong1998@outlook.com** or connect with me on [LinkedIn](https://www.linkedin.com/in/yurong-chen/).
+      
+      You can also explore my research on [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=-HuRr-EAAAAJ).
