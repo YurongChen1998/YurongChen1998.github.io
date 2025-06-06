@@ -1,35 +1,28 @@
 title: "Yurong Chen"
-tagline: "Hyperspectral Imaging | Machine Learning"
+tagline: "Ph.D. Student at Hunan University"
 description: >
-  Ph.D. Student at Hunan University  
-  IEEE Member | CSIG Student Member
+  Hyperspectral Imaging · Machine Learning · Computational Imaging
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: pages-themes/minimal@v0.2.0
 
 lang: "en"
 url: "https://YurongChen1998.github.io"
 baseurl: ""
 
-# SEO settings
-social:
+# Author and contact info
+author:
   name: "Yurong Chen"
   email: "chenyurong1998@outlook.com"
+
+# Social links
+social:
   links:
     - "https://github.com/YurongChen1998"
     - "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
     - "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
 
-author:
-  name: "Yurong Chen"
-  bio: "Ph.D. student working on hyperspectral computational imaging and machine learning."
-  email: "chenyurong1998@outlook.com"
-
-# Theme-specific settings
-theme_mode: "auto"
-
-footer:
-  since: 2022
-  license: "© 2025 Yurong Chen. All rights reserved."
+# Theme settings
+logo: /img/yurong_hiking.jpg
 
 # Build settings
 markdown: kramdown
@@ -38,29 +31,3 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
-
-paginate: 10
-
-# Navigation bar
-navbar:
-  logo:
-    enabled: true
-    path: /img/yurong_hiking.jpg
-  links:
-    - title: Home
-      url: /
-    - title: Publications
-      url: /publications
-    - title: Projects
-      url: /projects
-    - title: Blog
-      url: /blog
-    - title: About
-      url: /about
-
-# Sass/SCSS settings
-sass:
-  style: compressed
