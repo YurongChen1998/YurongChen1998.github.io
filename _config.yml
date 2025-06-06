@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: "mmistakes/minimal-mistakes"
 logo: img/yurong_hiking.jpg
 description: |
   Ph.D Student |
