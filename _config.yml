@@ -1,43 +1,32 @@
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-include-cache
+
 title: "Yurong Chen"
-tagline: "Ph.D. Student at Hunan University"
-description: >
-  IEEE Member · CISG Member
-
-remote_theme: pages-themes/minimal@v0.2.0
-
-lang: "en"
+description: "Ph.D. Student at Hunan University"
 url: "https://YurongChen1998.github.io"
 baseurl: ""
 
-# Author and contact info
 author:
   name: "Yurong Chen"
+  avatar: "/img/yurong_hiking.jpg"
+  bio: "Hyperspectral Imaging | Machine Learning | Inverse Problems"
+  location: "Changsha, China"
   email: "chenyurong1998@outlook.com"
-
-# Social links
-social:
   links:
-    - "https://github.com/YurongChen1998"
-    - "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
-    - "https://www.bilibili.com/video/BV1HJ4m1P7NH/"
+    - label: "GitHub"
+      url: "https://github.com/YurongChen1998"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=-HuRr-EAAAAJ"
 
-# Theme settings
-logo: /img/yurong_hiking.jpg
+# Layout settings
+theme_settings:
+  minimal_mistakes_skin: "air"
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-
-# Include custom CSS
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      css: /assets/css/custom.css
-
+      layout: single
+      author_profile: true
