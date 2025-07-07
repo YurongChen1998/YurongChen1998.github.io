@@ -1,8 +1,4 @@
----
-layout: home
-title: "Welcome"
-author_profile: true
----
+<link rel="stylesheet" href="assets/css/custom.css">
 
 ## 👋 Welcome to Yurong Chen's Homepage 陈煜嵘
 
