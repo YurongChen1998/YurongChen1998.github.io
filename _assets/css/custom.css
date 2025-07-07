@@ -1,40 +1,27 @@
-/* Typography improvements */
 body {
   font-family: "Segoe UI", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  color: #333;
   background-color: #fafafa;
+  color: #333;
 }
 
-/* Section headers */
-h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-/* Link styling */
 a {
   color: #007acc;
-  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
-/* Logo image styling */
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+  margin-top: 30px;
+}
+
 .site-logo {
   border-radius: 50%;
   width: 140px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 1em;
-}
-
-/* Code block formatting */
-pre, code {
-  background-color: #f4f4f4;
-  padding: 0.3em 0.6em;
-  border-radius: 5px;
 }
