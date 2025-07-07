@@ -31,3 +31,13 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+# Include custom CSS
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      css: /assets/css/custom.css
+
