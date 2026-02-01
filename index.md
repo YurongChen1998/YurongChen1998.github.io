@@ -8,7 +8,7 @@
 
 ### 🎓 About Me
 
-I am currently a Ph.D. student at **Hunan University**, supervised by
+I am currently a postdoc at **Hunan University**. My advisor is
 [Prof. Yaonan Wang](https://ieeexplore.ieee.org/author/37281429000) ([王耀南](https://baike.baidu.com/item/%E7%8E%8B%E8%80%80%E5%8D%97/13478272)) and
 [Prof. Hui Zhang](https://ieeexplore.ieee.org/author/37657010100) ([张辉](https://baike.baidu.com/item/%E5%BC%A0%E8%BE%89/54075504?fromModule=search-result_lemma)).
 My research lies at the intersection of:
@@ -17,7 +17,7 @@ My research lies at the intersection of:
 * Inverse Problems in Imaging
 * Statistical Machine Learning
 
-I received my M.S. in Electrical and Computer Engineering from the **University of Pittsburgh (UPitt)** in 2020.
+I received my Ph.D at **Hunan University** in 2025 and received M.S. at the **University of Pittsburgh (UPitt)** in 2020.
 
 📧 Contact: chenyurong1998 \[AT] outlook.com
 
