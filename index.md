@@ -29,6 +29,7 @@ You can find the full list on [Google Scholar](https://scholar.google.com/citati
 
 ### Selected Papers
 
+* **Nat Comput Sci'26** – [Self-optimized spectral distance for low-light high-throughput Raman hyperspectral imaging](https://www.nature.com/articles/s43588-026-00957-3) [\[Code\]](https://github.com/YurongChen1998/SSD) 
 * **TIP'25** – [LCTC: Lightweight Convolutional Thresholding Sparse Coding Network Prior for Compressive Hyperspectral Imaging](https://ieeexplore.ieee.org/document/11069304) [\[Code\]](https://github.com/YurongChen1998/LCTC)
 * **TIP'25** – [UnNull: Unsupervised Range-Nullspace Learning for Multispectral Demosaicing and Reconstruction](https://ieeexplore.ieee.org/document/10970444) [\[Code\]](https://github.com/YurongChen1998/UnNull)
 * **TCSVT'24** – [Prior Images Guided Generative Autoencoder for Dual-Camera Spectral Imaging](https://ieeexplore.ieee.org/abstract/document/10499714/) [\[Code\]](https://github.com/YurongChen1998/PiE-Dual-Camera-Spectral-Compressive-Imaging)
